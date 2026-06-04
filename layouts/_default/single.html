@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+</head>
+<body>
+
+<h1>{{ .Title }}</h1>
+
+<div style="display:flex;gap:20px;flex-wrap:wrap;">
+
+{{ $country := lower .Title }}
+
+{{ if eq $country "india" }}
+    <img src="/images/countries/india/tajmahal.jpg" width="300">
+    <img src="/images/countries/india/goa.jpg" width="300">
+    <img src="/images/countries/india/kerala.jpg" width="300">
+{{ end }}
+
+{{ if eq $country "japan" }}
+    <img src="/images/countries/japan/tokyo.jpg" width="300">
+{{ end }}
+
+{{ if eq $country "china" }}
+    <img src="/images/countries/china/hongkong.jpg" width="300">
+{{ end }}
+
+</div>
+
+</body>
+</html>

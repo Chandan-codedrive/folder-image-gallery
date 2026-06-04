@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <style>
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            border:1px solid #ddd;
+            border-radius:10px;
+            overflow:hidden;
+            text-decoration:none;
+            color:#000;
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:15px;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>{{ .Title }}</h1>
+
+<div class="grid">
+
+{{ range .Pages }}
+
+<a href="{{ .RelPermalink }}" class="card">
+
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+
+    <h3>{{ .Title }}</h3>
+
+</a>
+
+{{ end }}
+
+</div>
+
+</body>
+</html>
