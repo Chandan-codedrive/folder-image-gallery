@@ -1,0 +1,39 @@
+
+        .continent-card{
+    display:block;
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+    text-decoration:none;
+}
+
+.continent-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.continent-card:hover img{
+    transform:scale(1.08);
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.15)
+    );
+
+    display:flex;
+    align-items:flex-end;
+    padding:25px;
+}
+
+.overlay h3{
+    color:#fff;
+    margin:0;
+    font-weight:700;
+}

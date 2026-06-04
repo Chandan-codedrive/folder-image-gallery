@@ -1,73 +1,150 @@
 <!DOCTYPE html>
 <html>
+
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Asia</title>
-    <style>
-        .grid{
-            display:grid;
-            grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
-            gap:20px;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        .card{
-            border:1px solid #ddd;
-            border-radius:10px;
-            overflow:hidden;
-            text-decoration:none;
-            color:#000;
-        }
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        .card img{
-            width:100%;
-            height:220px;
-            object-fit:cover;
-        }
+<title>Asia</title>
 
-        .card h3{
-            padding:15px;
-            margin:0;
-        }
-    </style>
+<style>
+
+body{
+    background:#111;
+    color:white;
+}
+
+.country-card{
+    border:none;
+    overflow:hidden;
+    border-radius:15px;
+    transition:.3s;
+    background:#1a1a1a;
+}
+
+.country-card:hover{
+    transform:translateY(-6px);
+}
+
+.country-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h1>Asia</h1>
+<div class="container py-5">
 
-<div class="grid">
+    <nav class="breadcrumb-nav mb-4">
+
+    <a href="/">Home</a>
+
+    <span>/</span>
+
+    <span class="active">Asia</span>
+
+</nav>
+
+<h1 class="mb-4">Asia</h1>
+
+<div class="row">
 
 
 
-<a href="/asia/china/" class="card">
+<div class="col-md-4 mb-4">
 
-    <img src="/images/countries/china/cover.jpg" alt="China">
+<a href="/asia/china/" class="text-decoration-none">
 
-    <h3>China</h3>
+<div class="card country-card">
+
+
+
+
+<img src="/asia/china/cover.jpg" class="card-img-top">
+
+
+<div class="card-body">
+
+<h5 class="text-white">
+China
+</h5>
+
+</div>
+
+</div>
 
 </a>
 
+</div>
 
 
-<a href="/asia/india/" class="card">
 
-    <img src="/images/countries/india/cover.jpg" alt="India">
+<div class="col-md-4 mb-4">
 
-    <h3>India</h3>
+<a href="/asia/india/" class="text-decoration-none">
+
+<div class="card country-card">
+
+
+
+
+<img src="/asia/india/cover.jpg" class="card-img-top">
+
+
+<div class="card-body">
+
+<h5 class="text-white">
+India
+</h5>
+
+</div>
+
+</div>
 
 </a>
 
+</div>
 
 
-<a href="/asia/japan/" class="card">
 
-    <img src="/images/countries/japan/cover.jpg" alt="Japan">
+<div class="col-md-4 mb-4">
 
-    <h3>Japan</h3>
+<a href="/asia/japan/" class="text-decoration-none">
+
+<div class="card country-card">
+
+
+
+
+<img src="/asia/japan/cover.jpg" class="card-img-top">
+
+
+<div class="card-body">
+
+<h5 class="text-white">
+Japan
+</h5>
+
+</div>
+
+</div>
 
 </a>
+
+</div>
 
 
 
 </div>
 
+</div>
+
 </body>
+
 </html>
