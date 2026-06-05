@@ -21,8 +21,10 @@ collections:
     public_folder: ""
 
     fields:
-      - {
-          label: "Country Name",
-          name: "title",
+      - - label: "Country Name"
+          name: "title"
           widget: "string"
-        }
+
+        - label: "Cover Image"
+          name: "cover"
+          widget: "image"
