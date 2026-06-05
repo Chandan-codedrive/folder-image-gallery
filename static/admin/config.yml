@@ -5,4 +5,11 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
-collections: []
+collections:
+  - name: "test"
+    label: "Test"
+    folder: "content/test"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
