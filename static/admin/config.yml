@@ -21,10 +21,10 @@ collections:
     public_folder: ""
 
     fields:
-      - - label: "Country Name"
-          name: "title"
-          widget: "string"
+    - label: "Country Name"
+      name: "title"
+      widget: "string"
 
-        - label: "Cover Image"
-          name: "cover"
-          widget: "image"
+    - label: "Cover Image"
+      name: "cover"
+      widget: "image"
