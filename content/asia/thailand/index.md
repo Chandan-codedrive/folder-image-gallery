@@ -1,4 +1,4 @@
 ---
 title: Thailand
-cover: thailand.jpg
+cover: cover.jpg
 ---
