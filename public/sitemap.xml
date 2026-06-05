@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/africa/</loc>
+    <loc>https://example.org/africa/</loc>
   </url><url>
-    <loc>http://localhost:1313/antarctica/</loc>
+    <loc>https://example.org/antarctica/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia/</loc>
+    <loc>https://example.org/asia/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia/china/</loc>
+    <loc>https://example.org/asia/china/</loc>
   </url><url>
-    <loc>http://localhost:1313/europe/</loc>
+    <loc>https://example.org/europe/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia/india/</loc>
+    <loc>https://example.org/asia/india/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia/japan/</loc>
+    <loc>https://example.org/asia/japan/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.org/</loc>
   </url><url>
-    <loc>http://localhost:1313/north-america/</loc>
+    <loc>https://example.org/north-america/</loc>
   </url><url>
-    <loc>http://localhost:1313/oceania/</loc>
+    <loc>https://example.org/oceania/</loc>
   </url><url>
-    <loc>http://localhost:1313/south-america/</loc>
+    <loc>https://example.org/south-america/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>

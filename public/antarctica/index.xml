@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Antarctica on My New Hugo Project</title>
-    <link>http://localhost:1313/antarctica/</link>
+    <link>https://example.org/antarctica/</link>
     <description>Recent content in Antarctica on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/antarctica/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/antarctica/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
