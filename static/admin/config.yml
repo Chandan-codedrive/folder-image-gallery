@@ -37,3 +37,169 @@ collections:
         label: "Image"
         name: "image"
         widget: "image"
+
+
+  # Africaection
+  - name: "africa"
+    label: "Africa Countries"
+
+    folder: "content/africa"
+    create: true
+    delete: true
+
+    slug: "{{slug}}"
+
+    path: "{{slug}}/index"
+
+    media_folder: ""
+    public_folder: ""
+
+    fields:
+    - label: "Country Name"
+      name: "title"
+      widget: "string"
+
+    - label: "Cover Image"
+      name: "cover"
+      widget: "image"
+
+    - label: "Gallery Images"
+      name: "gallery"
+      widget: "list"
+      allow_add: true
+      field:
+        label: "Image"
+        name: "image"
+        widget: "image"
+
+   # north-america
+  - name: "north-america"
+    label: "North America Countries"
+
+    folder: "content/north-america"
+    create: true
+    delete: true
+
+    slug: "{{slug}}"
+
+    path: "{{slug}}/index"
+
+    media_folder: ""
+    public_folder: ""
+
+    fields:
+    - label: "Country Name"
+      name: "title"
+      widget: "string"
+
+    - label: "Cover Image"
+      name: "cover"
+      widget: "image"
+
+    - label: "Gallery Images"
+      name: "gallery"
+      widget: "list"
+      allow_add: true
+      field:
+        label: "Image"
+        name: "image"
+        widget: "image"
+
+   # south-america
+  - name: "south-america"
+    label: "South America Countries"
+
+    folder: "content/south-america"
+    create: true
+    delete: true
+
+    slug: "{{slug}}"
+
+    path: "{{slug}}/index"
+
+    media_folder: ""
+    public_folder: ""
+
+    fields:
+    - label: "Country Name"
+      name: "title"
+      widget: "string"
+
+    - label: "Cover Image"
+      name: "cover"
+      widget: "image"
+
+    - label: "Gallery Images"
+      name: "gallery"
+      widget: "list"
+      allow_add: true
+      field:
+        label: "Image"
+        name: "image"
+        widget: "image"
+
+   # oceania
+  - name: "oceania"
+    label: "Oceania Countries"
+
+    folder: "content/oceania"
+    create: true
+    delete: true
+
+    slug: "{{slug}}"
+
+    path: "{{slug}}/index"
+
+    media_folder: ""
+    public_folder: ""
+
+    fields:
+    - label: "Country Name"
+      name: "title"
+      widget: "string"
+
+    - label: "Cover Image"
+      name: "cover"
+      widget: "image"
+
+    - label: "Gallery Images"
+      name: "gallery"
+      widget: "list"
+      allow_add: true
+      field:
+        label: "Image"
+        name: "image"
+        widget: "image"
+
+    # antarctica
+  - name: "antarctica"
+    label: "Antarctica"
+
+    folder: "content/antarctica"
+    create: true
+    delete: true
+
+    slug: "{{slug}}"
+
+    path: "{{slug}}/index"
+
+    media_folder: ""
+    public_folder: ""
+
+    fields:
+    - label: "Country Name"
+      name: "title"
+      widget: "string"
+
+    - label: "Cover Image"
+      name: "cover"
+      widget: "image"
+
+    - label: "Gallery Images"
+      name: "gallery"
+      widget: "list"
+      allow_add: true
+      field:
+        label: "Image"
+        name: "image"
+        widget: "image"
