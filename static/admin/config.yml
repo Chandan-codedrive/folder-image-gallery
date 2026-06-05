@@ -6,10 +6,23 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "test"
-    label: "Test"
-    folder: "content/test"
+  - name: "asia"
+    label: "Asia Countries"
+
+    folder: "content/asia"
     create: true
+    delete: true
+
     slug: "{{slug}}"
+
+    path: "{{slug}}/index"
+
+    media_folder: ""
+    public_folder: ""
+
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Country Name",
+          name: "title",
+          widget: "string"
+        }
