@@ -6,6 +6,7 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+# single collection for continent metadata
   - name: "continents"
     label: "Continents"
 
@@ -18,7 +19,49 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Thumbnail", name: "thumbnail", widget: "image" }
 
-          
+      - label: "Asia"
+        name: "asia"
+        file: "content/asia/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "Europe"
+        name: "europe"
+        file: "content/europe/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "North America"
+        name: "north-america"
+        file: "content/north-america/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "South America"
+        name: "south-america"
+        file: "content/south-america/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "Oceania"
+        name: "oceania"
+        file: "content/oceania/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+      - label: "Antarctica"
+        name: "antarctica"
+        file: "content/antarctica/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+# each continent collection
   - name: "asia"
     label: "Asia Countries"
 
