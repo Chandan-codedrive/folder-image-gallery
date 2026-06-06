@@ -1,0 +1,84 @@
+/* =========================
+   Passport Stories Header
+========================= */
+
+.gallery-header{
+    background:#111;
+    border-bottom:1px solid #222;
+    position:sticky;
+    top:0;
+    z-index:9999;
+    width:100%;
+}
+
+.header-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:12px 20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.site-logo{
+    height:70px;
+    width:auto;
+    display:block;
+}
+
+.back-btn{
+    display:inline-block;
+    background:#0d6efd;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.back-btn:hover{
+    background:#0b5ed7;
+    color:#fff;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .header-container{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .site-logo{
+        height:60px;
+    }
+
+    .back-btn{
+        width:100%;
+        max-width:280px;
+    }
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+    .header-container{
+        padding:10px;
+    }
+
+    .site-logo{
+        height:50px;
+    }
+
+    .back-btn{
+        font-size:14px;
+        padding:10px 15px;
+    }
+}
+
