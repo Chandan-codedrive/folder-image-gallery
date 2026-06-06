@@ -6,6 +6,19 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+  - name: "continents"
+    label: "Continents"
+
+    files:
+
+      - label: "Africa"
+        name: "africa"
+        file: "content/africa/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+
+          
   - name: "asia"
     label: "Asia Countries"
 
