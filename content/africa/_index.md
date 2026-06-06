@@ -1,4 +1,4 @@
 ---
-title: "Africa"
-thumbnail: "/africa/cover.jpg"
+title: Africa
+thumbnail: /uploads/cover.jpg
 ---
