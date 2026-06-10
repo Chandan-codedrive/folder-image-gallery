@@ -1,4 +1,4 @@
 ---
 title: Africa
-thumbnail: /uploads/cover.jpg
+thumbnail: /uploads/images-2-.jpg
 ---
